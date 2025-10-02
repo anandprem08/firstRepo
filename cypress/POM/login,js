@@ -1,0 +1,15 @@
+class LoginPage{
+    constructor () {
+        this.usename='[id " user.name"]'
+        this.passwords='[id="password"]'
+        this.submit='[id=login-button"]'
+    }
+    typing UserName(usern){
+        cy.get(this.UserName).type(usern);
+
+    }
+    typing password(userp){
+        cy.get(this.password).type(userp);
+    }
+    }
+clicking on login button ()
